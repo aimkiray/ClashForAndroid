@@ -20,6 +20,9 @@ allprojects {
         jcenter()
 
         maven {
+            url = java.net.URI("https://dl.bintray.com/rikkaw/MaterialPreference")
+        }
+        maven {
             url = java.net.URI("https://dl.bintray.com/rikkaw/Libraries")
         }
     }
