@@ -23,7 +23,7 @@ jobs:
           java-version: 1.8
       - uses: actions/setup-go@v1
         with:
-          go-version: '1.14'
+          go-version: '1.16'
       - name: Set up NDK
         env:
           ndk_version: android-ndk-r21
