@@ -30,7 +30,7 @@ android {
     buildToolsVersion(gBuildToolsVersion)
 
     defaultConfig {
-        applicationId = "com.github.kr328.clash"
+        applicationId = "com.github.kr328.reclash"
 
         minSdkVersion(gMinSdkVersion)
         targetSdkVersion(gTargetSdkVersion)
